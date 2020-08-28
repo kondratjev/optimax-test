@@ -5,12 +5,12 @@ import { Form } from "react-final-form";
 import Button from "components/Button";
 import InputField from "components/InputField";
 
-import { CartItemType } from "types/cart";
+import { CartItemType, CartActionTypes } from "types/cart";
 
 import classes from "./AddToCartForm.module.css";
 
 type Props = {
-  addToCart: (item: CartItemType) => void;
+  addToCart: (item: CartItemType) => CartActionTypes;
 };
 
 type FormValues = { name: string; quantity: string; price: string };
