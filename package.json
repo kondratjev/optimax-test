@@ -1,7 +1,10 @@
 {
   "name": "optimax-test",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
+  "author": "kondratjev",
+  "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
     "final-form": "^4.20.1",
